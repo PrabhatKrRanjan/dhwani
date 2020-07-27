@@ -111,7 +111,7 @@ export default class Card extends React.Component {
                             <div>
                                 <label htmlFor="cvc">CVC</label>
                                 <div>
-                                    <input type="text" name="cvc" value={this.state.cvc} onChange={this.handelChange} maxLength={3} id="cvc" />
+                                    <input type="text" name="cvc" value={this.state.cvc} onChange={this.handelChange} maxLength={3} id="cvc" placeholder="000" />
                                 </div>
                             </div>
                         </div>

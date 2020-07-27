@@ -45,7 +45,7 @@ input[type="text"], select {
 }
 
 #cvc {
-    width: 100px;
+    width: 150px;
 }
 
 button {
@@ -58,4 +58,20 @@ button {
     font-size: 20px;
     background: linear-gradient( to right,#229ee6,#74ec11);
     color: rgb(31, 30, 29);
+}
+
+
+
+@media(max-width : 550px){
+    .card-input-box {
+        width: 320px;
+    }
+    .expiry {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    #cvc {
+        width: 290px
+    }
 }
