@@ -6,7 +6,7 @@ input::-webkit-inner-spin-button {
 
 input:focus, select:focus{
     outline: none;
-}
+} 
 
 .card-input-box {
     width: 500px;
@@ -36,12 +36,16 @@ label {
 
 input[type="text"], select {
     -moz-appearance: textfield;
-    width: 100%;
+    width: 95px;
     padding: 5px;
     border: 0px;
     border-radius: 5px;
     margin: 10px;
     font-size: 19px;
+}
+
+#name {
+    width: 95%;
 }
 
 #cvc {
@@ -73,5 +77,8 @@ button {
     }
     #cvc {
         width: 290px
+    }
+    input[type="text"] {
+        width: 50px;
     }
 }

@@ -117,7 +117,7 @@ export default class Card extends React.Component {
                         </div>
                         <label htmlFor="name">CARD HOLDER NAME</label>
                         <div className="name">
-                            <input type="text" name="name" maxLength={25} value={this.state.name} onChange={this.handelChange} placeholder="ENTER NAME AS ON CARD" />
+                            <input type="text" id="name" name="name" maxLength={25} value={this.state.name} onChange={this.handelChange} placeholder="ENTER NAME AS ON CARD" />
                         </div>
                         <div className="pay">
                             <button type='submit'>Pay</button>
